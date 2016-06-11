@@ -2,43 +2,48 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: Helvetica;
+}
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
 }
 
-article {
-  padding-left: 30px;
+section {
+  padding-right: 1%;  
 }
 
-section {
-  padding-right: 30px;
+
+h2 {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  margin: 0;
+  padding-top: 0px;
+  border: 1px solid black;
+  width: 114px;
+  height: 30px;
+  font-family: Helvetica;
+  text-align: center; 
 }
 
 div {
   position: relative; 
-  margin-top: 30px;
-  padding: 30px;   
   border: 1px solid black;
+  margin-right: 15px;
+  margin-left: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  padding-top: 35px;
   background-color: #ADADAD;
-  width: 90%;
-  height: 239px;  
-  font-family: Helvetica;
   color: black;
-  overflow: hidden;  
+  height: 200px;
+  overflow: hidden;
 }
 
-p {
-  position: absolute;  
-  right: -1px;
-  top: -17px;
-  padding-top: 3px;
-  border: 1px solid black;
-  width: 100px;
-  height: 25px;
-  font-family: Helvetica;
-  text-align: center;
-}
 
 .chicken {
   background-color: #CA7887;
@@ -148,52 +153,5 @@ window is between 768px and 991px, inclusively.
   .col-md-12 {
     width: 100%;
 
-  }
-}
-
-/********** Small devices only **********/
-/** 
-Mobile view should appear only if the width of the browser is 
-equal to or less than 767px.
-**/
-@media (max-width: 767px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
-  }
-  .col-sm-1 {
-    width: 8.33%;
-  }
-  .col-sm-2 {
-    width: 16.66%;
-  }
-  .col-sm-3 {
-    width: 25%;
-  }
-  .col-sm-4 {
-    width: 33.33%;
-  }
-  .col-sm-5 {
-    width: 41.66%;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-  .col-sm-7 {
-    width: 58.33%;
-  }
-  .col-sm-8 {
-    width: 66.66%;
-  }
-  .col-sm-9 {
-    width: 74.99%;
-  }
-  .col-sm-10 {
-    width: 83.33%;
-  }
-  .col-sm-11 {
-    width: 91.66%;
-  }
-  .col-sm-12 {
-    width: 100%;
   }
 }
