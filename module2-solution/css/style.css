@@ -4,45 +4,40 @@
 }
 h1 {
   margin-bottom: 15px;
+  text-align: center;
+}
+
+article {
+  padding-left: 30px;
 }
 
 section {
-  position: relative;
   padding-right: 30px;
-  padding-left: 30px;
 }
 
 div {
   position: relative; 
-  border: 2px solid black;
+  margin-top: 30px;
+  padding: 30px;   
+  border: 1px solid black;
   background-color: #ADADAD;
   width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 20px;
+  height: 162px;  
   font-family: Helvetica;
   color: black;
-  overflow: hidden;
-  padding: 30px;   
+  overflow: hidden;  
 }
 
 p {
   position: absolute;  
-  right: -2px;
-  top: -3px;
+  right: -1px;
+  top: -17px;
+  padding-top: 3px;
+  border: 1px solid black;
   width: 100px;
   height: 25px;
-  margin-right: auto;
-  margin-left: auto;
   font-family: Helvetica;
-  margin-top: 1px;  
   text-align: center;
-  font-weight: bold;
-  border: 2px solid black;
-  padding-top: 2px;
-  padding-bottom: 2px;
-
 }
 
 .chicken {
@@ -59,13 +54,10 @@ p {
   background-color: #C7CC00;
 }
 
-
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
-/********** Large devices only **********/
 /** The browser should display a desktop version 
 of the site when the width of the browser window is 
 992px and above**/
