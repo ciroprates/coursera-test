@@ -22,11 +22,11 @@ h2 {
   right: -1px;
   top: -1px;
   margin: 0;
-  padding-top: 0px;
+  padding-top: 6px;
   border: 1px solid black;
   width: 114px;
   height: 30px;
-  font-family: Helvetica;
+  font-size: 100%;
   text-align: center; 
 }
 
@@ -40,8 +40,14 @@ div {
   padding-top: 35px;
   background-color: #ADADAD;
   color: black;
-  height: 200px;
+  height: 150px;
   overflow: hidden;
+}
+
+
+p {
+  padding: 1%;
+  
 }
 
 
@@ -108,7 +114,6 @@ of the site when the width of the browser window is
   }
 }
 
-/********** Medium devices only **********/
 /** 
 Tablet view should appear only if the width of the browser 
 window is between 768px and 991px, inclusively.
