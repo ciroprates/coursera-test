@@ -51,17 +51,17 @@ p {
 }
 
 
-.chicken {
+#chicken {
   background-color: #CA7887;
   
 }
 
-.beef {
+#beef {
   background-color: #B91332;
   color: #FFFFFF
 }
 
-.sushi {
+#sushi {
   background-color: #C7CC00;
 }
 
